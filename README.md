@@ -8,7 +8,9 @@ Included here is the SQL to create a table called data_collection and a script t
 The data is stored as JSON in each field.
 
 Example Usage:
+
 $DataGrabber = new DataGrabber();
+
 $SQL = $DataGrabber->GrabGlobalsSql();
 
 My flavor of executing insert: $retDG = $dbops->ExecuteInsertQuery( new ConnectionProperties($is_local), $dgSql );
