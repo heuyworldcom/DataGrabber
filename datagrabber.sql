@@ -16,18 +16,10 @@ CREATE TABLE `data_collection` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `data_collection`
 --
 ALTER TABLE `data_collection`
   ADD PRIMARY KEY (`ID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
 
 --
 -- AUTO_INCREMENT for table `data_collection`
